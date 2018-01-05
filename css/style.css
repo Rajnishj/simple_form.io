@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	background: #518784;
+	width: 100%;
+	text-align: center;
+}
+
+.registrationform {
+	background: #003437;
+	width: 450px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+fieldset {
+	padding: 10px;
+	border: 0px;
+	border-top: 1px solid white;
+}
+
+legend {
+	background: #dbcfd0;
+	padding: 10px 25px;
+	color: 000f0f;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.inputfield {
+	font-family: georgia;
+	width: 400px;
+	padding: 7px;
+	border-radius: 6px;
+	border: 0px;
+	box-shadow: 0px 0px 5px #333;
+
+}
+
+.left {
+	width: 48%;
+	float: left;
+	text-align: right;
+	border-right: 1px solid white;
+}
+
+.titles {
+	padding-right: 20px;
+	color: #bdcfd0;
+}
+
+h4  {
+	font-weight: normal;
+}
+
+.right {
+	width: 49%;
+	float: right;
+	text-align: left;
+	color: #bdcfd0;
+
+}
+
+.dropdown {
+	width: 100px;
+	background: #000f0f;
+	color: white;
+	border-radius: 5px;
+}
+
+input[type="file"] {
+	background: black;
+	width: 200px;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px;
+	width: 140px;
+	border-radius: 5px;
+	background: #bdcfd0;
+	font-family: serif;
+	border: 0px;
+
+}
+
+
+
+
+

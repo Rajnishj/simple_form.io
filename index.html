@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Registration Form</title>
+	   <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+     <form>
+     <div class="registrationform">
+         <fieldset>
+         <legend>Personal Information</legend>
+     	
+     	<input type="text"  class="inputfield"  name="fullname"  placeholder="Full name"><br><br>
+     	
+     	<input type="Password" class="inputfield" name="Password"  placeholder="Password"><br><br>
+     	
+     	<textarea class="inputfield" name="message" rows="10" cols="22"></textarea>
+     	</fieldset>
+     	<fieldset>
+     		<legend>Programming Specific</legend>
+     		         <div class="left">
+         	             <div class="titles">
+         		              <h4>Programming Language :</h4><br><br>
+         		              <h4>Plateform you work on :</h4><br><br>
+         		              <h4>Web browser you use :</h4><br>
+         		              <h4>Upload your resume(PDF) :</h4>
+         	            </div>
+                    </div>
+         <div class="right">
+
+     		
+     		<input type="checkbox" name="java" id="java">
+     		<label for="java">Java</label><br>
+     		<input type="checkbox" name="python" id="python">
+     		<label for="python">python</label><br><br>
+     		
+     		<input type="radio" name="os" id="android">
+     		<label for="android">Andriod</label><br>     		
+     		<input type="radio" name="os" id="ios">
+     		<label for="ios">ios</label><br><br>
+     		
+     		<select name="browsers"  class="dropdown">
+     			<option value="safari">safari</option>
+     			<option value="firefox">firefox</option>
+     			<option value="chrome" selected>chrome</option>
+     		</select><br><br>
+
+     		
+     		<input type="file" name="photos">
+     		</div>
+     		</fieldset>
+     		
+     		<button type="submit" name="submit">Register</button>
+     		<button type="reset" name="reset">Reset</button>
+     		<button name="just a button">Just a button</button>
+
+     </form>
+</div>
+</body>
+</html>
